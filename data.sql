@@ -6,7 +6,8 @@ INSERT INTO animals VALUES(
 	true,
 	10.23
 	
-)
+);
+
 INSERT INTO animals VALUES(
     2,
 	'Gabumon',
@@ -15,7 +16,8 @@ INSERT INTO animals VALUES(
 	true,
 	8
 	
-)
+);
+
 INSERT INTO animals VALUES(
     3,
 	'Pikachu',
@@ -24,13 +26,14 @@ INSERT INTO animals VALUES(
 	false,
 	15.04
 	
-)
+);
+
 INSERT INTO animals VALUES(
-    4,
+	4,
 	'Devimon',
 	'2017-05-12',
 	5,
 	true,
 	11
 	
-)
+);
