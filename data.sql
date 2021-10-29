@@ -138,5 +138,33 @@ INSERT INTO species(species_id, name) VALUES(
 	'Digimon'
 );
 
+-- Modifying  inserted animals
 
+UPDATE animals
+SET species_id = (SELECT species_id WHERE name='Digimon')
+WHERE name LIKE '%mon';
+
+UPDATE animals
+SET species_id = (SELECT species_id WHERE name='Pokemon')
+WHERE species_id IS NULL;
+
+UPDATE animals
+SET owners_id = (SELECT owners_id WHERE name= 'Sam Smith')
+WHERE name = 'Agumon';
+
+UPDATE animals
+SET owners_id = (SELECT owners_id WHERE name= 'Jennifer Orwell')
+WHERE name = 'Gabumon' AND name= ' Pikachu';
+
+UPDATE animals
+SET owners_id = (SELECT owners_id WHERE name= 'Bob')
+WHERE name = 'Devimon' AND name = 'Plantmon';
+
+UPDATE animals
+SET owners_id = (SELECT owners_id WHERE name= 'Melody Pond')
+WHERE name = 'Charmander' AND name = 'Squirtle' AND name = 'Blossom';
+
+UPDATE animals
+SET owners_id = (SELECT owners_id WHERE name= 'Dean Winchester')
+WHERE name = 'Angemon' AND name = 'Boarmon';
 
