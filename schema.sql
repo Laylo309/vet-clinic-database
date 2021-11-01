@@ -10,8 +10,8 @@ CREATE TABLE animals(
 );
 
 CREATE TABLE owners(
-owners_id int NOT NULL,
-name VARCHAR(30),
+owners_id SERIAL,
+full_name VARCHAR(30),
 age integer,
 PRIMARY KEY(owners_id)
 );
@@ -43,3 +43,6 @@ animal_id int,
 vets_id int,
 visit_date date
 );
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
