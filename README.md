@@ -1,6 +1,11 @@
 # Vet clinic database
-## Getting Started
 
+## DIAGRAM
+![image](https://user-images.githubusercontent.com/74747182/139965300-6f3af16a-82e7-4486-968f-f063cfb0d834.png)
+
+
+
+## Getting Started
 This repository includes files with plain SQL that can be used to recreate a database:
 
 - Use [schema.sql](./schema.sql) to create all tables.
