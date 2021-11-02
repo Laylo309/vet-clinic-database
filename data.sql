@@ -90,37 +90,37 @@
 
  -- OWNERS INFORMATION
 
- INSERT INTO owners(owners_id, name, age) VALUES(
+ INSERT INTO owners(owners_id, full_name, age) VALUES(
  	1, 
  	'Sam Smith', 
  	34
  );
 
- INSERT INTO owners(owners_id, name, age) VALUES(
+ INSERT INTO owners(owners_id, full_name, age) VALUES(
  	2, 
  	'Jennifer Orwell', 
  	19
  );
 
- INSERT INTO owners(owners_id, name, age) VALUES(
+ INSERT INTO owners(owners_id, full_name, age) VALUES(
  	3, 
  	'Bob', 
  	45
  );
 
- INSERT INTO owners(owners_id, name, age) VALUES(
+ INSERT INTO owners(owners_id, full_name, age) VALUES(
  	4, 
  	'Melody Pond', 
  	77
  );
 
- INSERT INTO owners(owners_id, name, age) VALUES(
+ INSERT INTO owners(owners_id, full_name, age) VALUES(
  	5, 
  	'Dean Winchester', 
  	14
  );
 
- INSERT INTO owners(owners_id, name, age) VALUES(
+ INSERT INTO owners(owners_id, full_name, age) VALUES(
  	6, 
  	'Jodie Whittaker', 
  	38
